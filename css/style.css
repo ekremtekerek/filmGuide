@@ -1,0 +1,39 @@
+body {
+    color: #d7d7d7;
+    background-color: #2e2e2e;
+}
+
+.media {
+    background: #3c3b3b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+i svg {
+    fill: transparent;
+    stroke: #972d00;
+    stroke-width: 1.5px;
+    transform: scale(1.2);
+    cursor: pointer;
+     transition: fill 1.5s,stroke 1s;
+}
+i.active svg {
+    fill:#972d00;
+    transition: fill 1.5s,stroke 1s;
+    stroke:#972d00;
+}
+
+.add_favorite {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#msg {
+    color:red;
+  }
+
+#list > div {
+    margin-bottom: 1.5rem;
+}
